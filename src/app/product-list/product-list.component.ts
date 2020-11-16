@@ -19,5 +19,4 @@ export class ProductListComponent implements OnInit {
     this._productService.getProducts()
       .subscribe(response => this.products = response);
   }
-
 }
